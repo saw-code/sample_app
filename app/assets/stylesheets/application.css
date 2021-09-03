@@ -10,6 +10,8 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ гарантирует, что все файлы CSS в каталоге app / assets / stylesheets (включая подкаталоги дерева) включены в CSS приложения
  *= require_tree .
+ указывает, где в последовательности загрузки включается CSS в самом application.css.
  *= require_self
  */
